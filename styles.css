@@ -8,26 +8,31 @@ body {
 .header {
    color: #F9FAF8;
    background: #1F2937;
-   align-items: center;
+   align-items: start;
    display: flex;
    flex: 1;
 }
 
 .logo {
+   display: flex;
    padding: 10px;
    font-size: 16px;
    font-weight: 600;
-   flex: 1;
+   height: auto;
+   flex-shrink: 0;
 }
 
 .links {
    padding-right: 20px;
-   padding: 10px;
 }
 
 .links ul {
    list-style-type: none;
    display: flex;
+   justify-content: flex-end;
    gap: 10px
 }
 
+.head2 {
+   display: flex;
+}

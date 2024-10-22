@@ -93,13 +93,65 @@ h1 {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
 }
 
 .quote {
    font-size: 32px;
    width: 900px;
-   margin-top: 500px;
+   margin-top: 300px;
 }
+
+.by {
+   align-self: flex-end;
+   font-size: 20px;
+   font-weight: 700;
+   margin-right: 510px;
+}
+
+.bancont {
+   display: flex;
+   justify-content: center;
+}
+
+.banner {
+   color:#F9FAF8;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #3882F6;
+   padding: 50px;
+   padding-left: 150px;
+   padding-right: 150px;
+   margin-top: 200px;
+   border-radius: 10px;
+   flex-wrap: wrap;
+}
+
+.call {
+   display: flex;
+   flex-direction: column;
+   margin-right: 100px
+}
+
+.text2 {
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.register {
+   background: #3882F6;
+   border-color: #F9FAF8;
+   color: #F9FAF8;
+   padding: 8px;
+   padding-right: 30px;
+   padding-left: 30px;
+   border-radius: 10px;
+   border-style: solid;
+}
+
+
 
 .links {
     flex: 1;
